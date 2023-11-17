@@ -1,0 +1,41 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #f7fdff
+}
+
+.conteiner {
+	width: 80.88%;
+}
+
+#menu-principal {
+	display: flex;
+	width: 100%;	
+	justify-content: end;
+	box-shadow: 0px 7px 5px -3px rgba(0,0,0,0.65);
+	-webkit-box-shadow: 0px 7px 5px -3px rgba(0,0,0,0.65);
+		: 0px 7px 5px -3px rgba(0,0,0,0.65);
+}
+
+#nav-bar {
+	display: flex;
+	width: 25rem;
+	margin-right: 1rem;
+}
+
+#nav-bar ul {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+#nav-bar ul > li {
+	list-style-type: none;
+}
+
+#nav-bar ul > li > a {
+	text-decoration: none;
+}
+
